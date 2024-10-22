@@ -26,6 +26,7 @@ ou
 
 bash switch.ch blue
 ```
+---
 
 Afin de permettre de passer du service *Bleu* à *Green* la config du load-balancer est
 créer dans docker avec un nom (name) changant à chaque 'switch'. C'est un bon moyen pour forcer 
