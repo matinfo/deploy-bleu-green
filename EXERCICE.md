@@ -7,4 +7,4 @@ un service nginx avec en front un load-balancer utilisant aussi nginx.
 - Le load-balancer lui sera accessible sur le port http **8383**.
 - Le passage (switch) entre le service Bleu et Green sera effectué en modifiant la configuration du load-balancer.
 
-[Schema](schema.png)
+![Schema](/schema.webp)
