@@ -3,6 +3,8 @@
 La solution démontre le fonctionnement du déployement de type Bleu-Green avec 
 un service nginx et en front un load-balancer nginx utilisant un stack Swarm.
 
+![Schema](schema.png)
+
 Cette solution utilise des 'configs' docker swarm pour partager sur les nodes 
 les configurations de chaque service nginx et des fichiers index.html spécifique 
 pour afficher sur l'instance Bleu *Welcome Bleu* et pour l'instance Green *Welcome Green*.
