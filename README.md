@@ -30,7 +30,7 @@ bash switch.ch blue
 
 Afin de permettre de passer du service *Bleu* à *Green* la config du load-balancer est
 créer dans docker avec un nom (name) changant à chaque 'switch'. C'est un bon moyen pour forcer 
-swarm à modifier le comportanent du load-balancer, car une *config* ne peux être modifier (update).
+swarm à modifier le comportement du load-balancer, car une *config* ne peux être modifier (update).
 
 ```yaml
   loadbalancer_conf:
